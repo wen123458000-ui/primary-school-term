@@ -1,0 +1,94 @@
+{
+  "name": "/",
+  "type": "directory",
+  "created_at": "2026-06-30T18:54:08.494005",
+  "modified_at": "2026-06-30T18:54:08.494090",
+  "permissions": [
+    "EXECUTE",
+    "WRITE",
+    "READ"
+  ],
+  "children": [
+    {
+      "name": "home",
+      "type": "directory",
+      "created_at": "2026-06-30T18:54:08.494088",
+      "modified_at": "2026-06-30T18:54:08.494104",
+      "permissions": [
+        "EXECUTE",
+        "WRITE",
+        "READ"
+      ],
+      "children": [
+        {
+          "name": "user",
+          "type": "directory",
+          "created_at": "2026-06-30T18:54:08.494103",
+          "modified_at": "2026-06-30T18:54:08.494120",
+          "permissions": [
+            "EXECUTE",
+            "WRITE",
+            "READ"
+          ],
+          "children": [
+            {
+              "name": "test.txt",
+              "type": "file",
+              "created_at": "2026-06-30T18:54:08.494110",
+              "modified_at": "2026-06-30T18:54:08.494110",
+              "permissions": [
+                "EXECUTE",
+                "WRITE",
+                "READ"
+              ],
+              "size_bytes": 1024,
+              "content": "hello world",
+              "extension": "txt"
+            },
+            {
+              "name": "report1.docx",
+              "type": "file",
+              "created_at": "2026-06-30T18:54:08.494116",
+              "modified_at": "2026-06-30T18:54:08.494116",
+              "permissions": [
+                "EXECUTE",
+                "WRITE",
+                "READ"
+              ],
+              "size_bytes": 2048,
+              "content": "",
+              "extension": "docx"
+            },
+            {
+              "name": "docs",
+              "type": "directory",
+              "created_at": "2026-06-30T18:54:08.494120",
+              "modified_at": "2026-06-30T18:54:08.494124",
+              "permissions": [
+                "EXECUTE",
+                "WRITE",
+                "READ"
+              ],
+              "children": [
+                {
+                  "name": "report2.pdf",
+                  "type": "file",
+                  "created_at": "2026-06-30T18:54:08.494122",
+                  "modified_at": "2026-06-30T18:54:08.494123",
+                  "permissions": [
+                    "EXECUTE",
+                    "WRITE",
+                    "READ"
+                  ],
+                  "size_bytes": 4096,
+                  "content": "",
+                  "extension": "pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

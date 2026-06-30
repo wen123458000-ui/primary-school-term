@@ -1,0 +1,108 @@
+{
+  "name": "/",
+  "type": "directory",
+  "created_at": "2026-06-30T19:18:49.009871",
+  "modified_at": "2026-06-30T19:18:49.009879",
+  "permissions": [
+    "EXECUTE",
+    "READ",
+    "WRITE"
+  ],
+  "children": [
+    {
+      "name": "dir1",
+      "type": "directory",
+      "created_at": "2026-06-30T19:18:49.009875",
+      "modified_at": "2026-06-30T19:18:49.009890",
+      "permissions": [
+        "EXECUTE",
+        "READ",
+        "WRITE"
+      ],
+      "children": [
+        {
+          "name": "file1.txt",
+          "type": "file",
+          "created_at": "2026-06-30T19:18:49.009881",
+          "modified_at": "2026-06-30T19:18:49.009881",
+          "permissions": [
+            "EXECUTE",
+            "READ",
+            "WRITE"
+          ],
+          "size_bytes": 100,
+          "content": "",
+          "extension": "txt"
+        },
+        {
+          "name": "file2.txt",
+          "type": "file",
+          "created_at": "2026-06-30T19:18:49.009885",
+          "modified_at": "2026-06-30T19:18:49.009885",
+          "permissions": [
+            "EXECUTE",
+            "READ",
+            "WRITE"
+          ],
+          "size_bytes": 200,
+          "content": "",
+          "extension": "txt"
+        },
+        {
+          "name": "subdir",
+          "type": "directory",
+          "created_at": "2026-06-30T19:18:49.009889",
+          "modified_at": "2026-06-30T19:18:49.009893",
+          "permissions": [
+            "EXECUTE",
+            "READ",
+            "WRITE"
+          ],
+          "children": [
+            {
+              "name": "file3.txt",
+              "type": "file",
+              "created_at": "2026-06-30T19:18:49.009892",
+              "modified_at": "2026-06-30T19:18:49.009892",
+              "permissions": [
+                "EXECUTE",
+                "READ",
+                "WRITE"
+              ],
+              "size_bytes": 300,
+              "content": "",
+              "extension": "txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dir2",
+      "type": "directory",
+      "created_at": "2026-06-30T19:18:49.009878",
+      "modified_at": "2026-06-30T19:18:49.009888",
+      "permissions": [
+        "EXECUTE",
+        "READ",
+        "WRITE"
+      ],
+      "children": [
+        {
+          "name": "file1.txt",
+          "type": "file",
+          "created_at": "2026-06-30T19:18:49.009887",
+          "modified_at": "2026-06-30T19:18:49.009887",
+          "permissions": [
+            "EXECUTE",
+            "READ",
+            "WRITE"
+          ],
+          "size_bytes": 150,
+          "content": "",
+          "extension": "txt"
+        }
+      ]
+    }
+  ]
+}
